@@ -102,6 +102,9 @@ def activate(request, uidb64, token):
         return HttpResponse('Activation link is invalid!')
 
 
+
+
+
 @login_required(login_url='login/')
 def order_create(request):
 
