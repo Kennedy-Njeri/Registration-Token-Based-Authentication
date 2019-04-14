@@ -20,10 +20,14 @@ from django.views.generic import (View, TemplateView,
                                   DeleteView)
 
 
+
+
 @login_required
 def account(request):
 
     return render(request, 'account.html')
+
+
 
 
 
